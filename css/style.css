@@ -1,0 +1,76 @@
+
+a{
+    text-decoration:none;
+    font-family: futura-pt, sans-serif;
+    font-size:20px;
+}
+h1 {
+    font-size:40px;
+    color: #75aad8;
+    font-family:futura-pt, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: #75aad8;
+    padding: 30px;
+    font-family: futura-pt, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-weight:300;
+    border: pink dotted 5px;
+    font-size: 80px;
+    color: rgb(250, 241, 192);
+}
+nav {
+    float: left;
+    width: 20%;
+    height: 400px;
+    background: rgb(189, 240, 240);
+    padding: 20px;
+    font-family: futura-pt, sans-serif;
+    font-weight: bold;
+}
+nav ul {
+    list-style-type: none;
+    padding: 40px;
+    font-size: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding:10px;
+}
+nav ul li:hover{
+    background-color : rgb(250, 241, 192);
+}
+article {
+    float: right;
+    padding: 20px;
+    width: 80%;
+    background-color: rgb(253, 252, 234);
+    height: 400px; 
+}
+p {
+    font-size:20px;
+    color: #75aad8;
+    font-family: futura-pt, sans-serif;
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
