@@ -1,0 +1,39 @@
+
+ div.canvas {
+     width: 1000px;
+     height:1000px;
+     border-radius: 3px;
+     margin: 50px auto;
+     border: 20px white solid;
+     position: relative;
+     background:rgb(187, 187, 187)
+ }
+ div.bands {
+    width:975px;
+    height:975px;
+    position: absolute;    
+ }
+div.outline {
+    width:975px;
+    height:975px;
+    position: absolute;
+    border: 25px solid black; 
+}
+
+div.horizontal{
+    width: 600px;
+    position: relative;
+    top: 600px;
+    left:355px;
+    border: solid 14px;
+}
+
+div.vertical{
+    width:975px;
+    position: absolute;
+    top:-145px;
+    left: -55px;
+    border: solid 12px;
+    transform: rotate(-90deg);
+}
+
