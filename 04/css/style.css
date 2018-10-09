@@ -1,48 +1,25 @@
-
- div.calm {
-     border-radius: 50px;
-     height:50px;
-     width:50px;
-     
- }
-
-
--webkit-keyframes pulse--custom {
-    from {
-      -webkit-transform: scale3d(1, 1, 1);
-      transform: scale3d(1, 1, 1);
-    }
-
-    50% {
-      -webkit-transform: scale3d(1.05, 1.05, 1.05);
-      transform: scale3d(1.05, 1.05, 1.05);
-    }
-  
-    to {
-      -webkit-transform: scale3d(1, 1, 1);
-      transform: scale3d(1, 1, 1);
-    }
-  }
-  
-  @keyframes pulse--custom {
-    from {
-      -webkit-transform: scale3d(1, 1, 1);
-      transform: scale3d(1, 1, 1);
-    }
-  
-    50% {
-      -webkit-transform: scale3d(1.05, 1.05, 1.05);
-      transform: scale3d(1.05, 1.05, 1.05);
-    }
-  
-    to {
-      -webkit-transform: scale3d(1, 1, 1);
-      transform: scale3d(1, 1, 1);
-    }
-  }
-  
-  .pulse--cutom {
-    -webkit-animation-name: pulse;
-    animation-name: pulse;
-  }
-  
+h1{
+font-family: franklin-gothic-urw-comp, sans-serif;
+font-style: normal;
+font-weight: 400;
+color: rgb(255, 110, 53);
+font-size: 70px;
+text-align: center;
+}
+body{
+  background: slateblue;
+}
+ul{
+  text-align: center;
+}
+li{
+  font-family: franklin-gothic-urw-comp, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: hotpink;
+  font-size: 50px;
+  display: inline-block;
+}
+ul li:hover{
+  background-color : rgb(255, 110, 53);
+}
