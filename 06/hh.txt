@@ -1,0 +1,7 @@
+if (times = 222) {
+    message += 'You got it right!!!\n'
+   }else if(minus < 222){
+    message += 'Wrong answer, please try it again!\n'
+   }else if(minus > 222){
+    message += 'Wront answer...Please try it again!\n'
+   }
