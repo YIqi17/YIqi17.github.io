@@ -13,7 +13,7 @@ const two = parseInt(prompt('Enter your second number'));
 const three = parseInt(prompt('Enter your third number'));
 const four = parseInt(prompt('Enter your forth number'));
 
-let message = 'Your equation is ' + (one+two-three)*four;
+let message = 'Your answer is' + (one+two-three)*four;
 
 messagewrapper.innerText = message;
 
