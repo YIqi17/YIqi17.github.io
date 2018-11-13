@@ -12,8 +12,20 @@ html, body {
 
   height: 100%;
 
+  width: 100%;
+
+  overflow: hidden;
+
   text-align: center;
 
+
+
+}
+
+.logo {
+  height: auto;
+  width: 200px;
+  position: absolute;
 }
 
 
@@ -86,13 +98,6 @@ img {
 
 
 
-.phrase {
-
-  font-family: 'Architects Daughter', cursive;
-
-  position: absolute;
-
-}
 
 
 
@@ -130,14 +135,14 @@ img {
 
 {
 
-  0%   {background: red;}
+  0%   {background: rgb(252,174,187);}
 
-  25%  {background: yellow;}
+  25%  {background: rgb(242, 240,161);}
 
-  50%  {background: blue;}
+  50%  {background: rgb(116,209,234);}
 
-  75%  {background: green;}
+  75%  {background: rgb(191,155,222);}
 
-  100% {background: red;}
+  100% {background: rgb(241,178,220);}
 
 }

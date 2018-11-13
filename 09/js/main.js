@@ -44,11 +44,11 @@
 
 
 
-  document.onkeyup = function (event) {
+  document.onkeydown = function (event) {
     event.preventDefault();
     const keyCodePressed = event.keyCode;
 
-
+    console.log(event)
 
     const coordinates = helpers.generateCoordinates();
 
@@ -156,7 +156,51 @@
       document.body.appendChild(steam);
 
     }
+    else if (keyCodePressed === 85) {
 
+
+      const logo = document.createElement('img');
+
+      logo.className = 'logo';
+
+      logo.src = `image/logo.png`;
+      logo.style.top = "100px";
+      logo.style.left = "100px";
+      document.body.appendChild(logo);
+    }
+
+    else if (keyCodePressed === 39) {
+      var logo = document.getElementsByClassName('logo')[0];
+
+        var height = parseInt(logo.style.left, 10) + 10;
+        console.log(height)
+        logo.style.left = height + 'px';
+    
+    }
+    else if (keyCodePressed === 37) {
+      var logo = document.getElementsByClassName('logo')[0];
+
+        var height = parseInt(logo.style.left, 10) - 10;
+        console.log(height)
+        logo.style.left = height + 'px';
+    
+    }
+    else if (keyCodePressed === 40) {
+      var logo = document.getElementsByClassName('logo')[0];
+
+        var height = parseInt(logo.style.top, 10) + 10;
+        console.log(height)
+        logo.style.top = height + 'px';
+    
+    }
+    else if (keyCodePressed === 38) {
+      var logo = document.getElementsByClassName('logo')[0];
+
+        var height = parseInt(logo.style.top, 10) - 10;
+        console.log(height)
+        logo.style.top = height + 'px';
+    
+    }
 
     else if (keyCodePressed === 84) {
       audioD.play();
