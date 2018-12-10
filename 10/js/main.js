@@ -85,7 +85,7 @@ new p5(sketch, 'section-2');
 //p5 Stuff that are related to the syndrome
 var cols, rows;
 var scl = 50;
-var rad = 0;
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   var w = width;
@@ -99,9 +99,7 @@ function setup() {
 
 function draw() {
   background(255);
-  var c = abs(sin(rad)*255);
-  rad+=0.005;
-  fill('hsl('+ parseInt(c) +', 90%,  90%)')
+  fill('black')
   //translate(width/2, height/2);
   for (j = 0; j < cols; j++){
     for(i = 0; i < rows; i++){
