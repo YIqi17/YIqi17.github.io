@@ -1,0 +1,144 @@
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Akzidenz";
+    src: url("../assets/akzidenz.otf") format("opentype");
+}
+@font-face {
+font-family: "Avenir";
+src: url("../assets/avenir.otf") format("opentype");
+}
+ul {
+    z-index: 1;
+}
+
+.letter{
+    position: sticky;
+    display: inline-block;
+    height: 50px;
+    width: 40px;
+    top: 60px;
+    font-size: 160%;
+    font-family: "Akzidenz";
+}
+#text-container{
+    z-index: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -220px;
+    height: 1000%;
+}
+
+section{
+    align-items: center;
+    display: flex;
+    height: 200vh;
+    justify-content: center;
+    font-family: "Akzidenz";
+}
+#section-2{
+    background: black;
+    position: relative;
+}
+
+
+#section-2 h1{
+    font-size: 40px;
+    color: black;
+    transition: color 3s ease-in-out;
+    position: absolute;
+    font-kerning: 1.8em;
+    top:41%;
+}
+
+#section-2 ul{
+    font-size:20px;
+    color:white;
+    position: absolute;
+    list-style-type: none;
+    top:45%;
+    font-family:"Avenir";
+}
+
+#section-2 li{
+    margin: 10px 0;
+  }
+#section-1 h2{
+    font-size: 23px;
+    margin-left: 250px;
+}
+#section-1 p{
+    letter-spacing: 0.1em;
+    margin: 0 auto;
+    max-width: 500px;
+    font-family: "Avenir";
+    font-size:11px;
+    line-height: 16px;
+    left:40%;
+    padding-top: 300px
+}
+
+#section-1 p.active{
+    letter-spacing: 1.6rem;
+}
+
+#nav-container {
+    z-index: 0;
+  position: absolute;
+  height: 1000%;
+  top: 57%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -220px;
+}
+
+.nav-items {
+    position: sticky;
+    display: inline-block;
+    top: 30px;
+    font-family: "Akzidenz";
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: grey;
+    font-size:16px;
+    margin-right: 105px;
+    font-family: "Avenir";
+}
+#intro {
+    height:300vh;
+    background: black;
+
+}
+#intro h1{
+     text-align: center;
+     transition: color 2s ease-in-out;
+     font-size: 33px;
+    padding-bottom: 20px;
+}
+
+#intro ul{
+    display: block;
+    list-style-type: none;
+}
+
+#intro p{
+    letter-spacing: 0.1em;
+    margin-left: 110px;
+    margin-right:70px;
+    max-width: 300px;
+    font-family: "Avenir";
+    font-size:11px;
+    line-height: 16px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+#example{
+    align-items: baseline;
+}
